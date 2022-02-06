@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 from tensorflow import keras
 
+
+# THIS CODE IS USED FOR TRAINING EXISTING MODELS
+
+
 # Path to the model
 modelPath = "testmodel1_500k"
 
