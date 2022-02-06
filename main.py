@@ -6,6 +6,9 @@ from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 
 
+# THIS CODE IS USED FOR CREATING A NEW MODEL
+
+
 # Image data
 image_size = (255, 255)
 img_height = 255
