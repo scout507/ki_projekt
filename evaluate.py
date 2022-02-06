@@ -84,7 +84,7 @@ for k in range(4):
             if correct:
                 correctCounter += 1
                 sumPrediction = 0
-                for l in range(0, 9):
+                for l in range(0, 10):
                     if predictions[0][l] >= 0.0:
                         sumPrediction += predictions[0][l]
                 if sumPrediction > 0:
@@ -93,6 +93,6 @@ for k in range(4):
             # Can be used for more detailed information
             #print(str(j) + ". I think it's: " + labels[result] + " with " + str(np.max(score)*100) + "%  " + str(correct))
 
-    print(modes[k] + "->  Correct in: " + str(correctCounter) + "/" + str(imgPerDir * 10) + " | Certainty: " + str(certainty / correctCounter) + " | Accuracy: " + str(correctCounter / (imgPerDir * 10)))
+    print(modes[k] + "->  Correct in: " + str(correctCounter) + "/" + str(imgPerDir * 10) + " | Confidence: " + str(certainty / correctCounter) + " | Accuracy: " + str(correctCounter / (imgPerDir * 10)))
 
 
