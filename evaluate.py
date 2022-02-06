@@ -2,6 +2,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
+# THIS CODE IS USED FOR EVALUATING EXISTING MODELS
+
 # Labels for the evaluation data
 labels = ["apple", "campfire", "diamond", "donut", "face", "fish", "hand", "house", "pizza", "t-shirt"]
 # The different optimizing modes
